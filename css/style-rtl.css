@@ -1,0 +1,74 @@
+/* Font Resizer */
+.font-manage {
+	cursor: pointer;
+	z-index:999999;
+    float: left;
+    display: inline-flex; 
+	/*display: flex;
+	flex-direction: column;*/
+    /*border-bottom: 3px solid #135e9d;
+    border-style: double;
+    padding-bottom: 5px;*/
+}
+/*
+.font-manage {
+	position:absolute;
+	z-index:999999;
+	display:grid;
+    position: fixed;
+    top: 200px;
+    right: 160px;
+}
+*/
+
+.font-manage a {
+    margin: 1px 3px;
+    background: #fff;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 5px;
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+	text-decoration: none !important;
+}
+
+/* Year */
+span.year {
+    font-weight: bold;
+}
+
+/* Print Style */
+@media print {
+		
+}
+
+/* QR Code */
+.qricon {
+		position: relative;
+		display: inline-block;
+}
+.qrcode {
+    visibility: hidden;
+    width: 150px; 
+	height: 150px; 
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px; 
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 99999;
+}
+.qricon:hover .qrcode {
+    visibility: visible;
+}	
+
+.url_copy{
+	position: relative;
+	display: block;
+	left: -80px;
+	top: -25px;
+}

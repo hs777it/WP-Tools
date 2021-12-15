@@ -1,0 +1,28 @@
+.zshortcodes-wrap{  
+    position: relative;
+    min-height: 450px;
+    margin: 20px;
+    background:#f7f7f7; /*#eae0b6*/
+    width: 53%;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+
+.pnl{
+    padding:10px;
+}
+.zshortcodes-wrap h1 {
+    margin: 20px 15px 30px;
+}
+.body {
+    margin: 15px;
+    padding: 0px 5px 30px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    border-top: 3px solid #171717;
+    width: 100%;
+}
+
